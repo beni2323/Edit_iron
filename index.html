@@ -1,68 +1,128 @@
-<!DOCTYPE html><html lang="fa">
+<!DOCTYPE html>
+<html lang="fa">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>EDIT_IRON</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
+  <!-- لینک به فایل CSS خارجی -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- استایل داخلی برای اطمینان -->
+  <style>
+    body {
+      background-color: #cc5500; /* نارنجی تیره */
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    nav {
+      background-color: #b04400;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .category {
+      background-color: #d96500;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    .category h2 {
+      margin-top: 0;
+    }
+    .button {
+      display: inline-block;
+      background-color: #a33b00;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #7a2900;
+    }
+    footer {
+      background-color: #b04400;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 0.9rem;
+    }
+    footer a {
+      margin: 0 10px;
+      color: white;
+    }
+  </style>
 </head>
-  <link rel="stylesheet" href="style.css">
 <body>
-  <header>
-    <div class="container">
-      <img src="logo.png" alt="EDIT_IRON Logo" class="logo">
-      <h1>EDIT_IRON</h1>
-      <nav>
-        <ul>
-          <li><a href="#green">GREEN SCREEN</a></li>
-          <li><a href="#sound">SOUND EFFECT</a></li>
-          <li><a href="#transmission">TRANSMISSION</a></li>
-          <li><a href="#app">APPLICATION</a></li>
-          <li><a href="#vip">VIP</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>  <main>
-    <section id="green" class="category">
+  <header>EDIT_IRON Logo</header>
+  <nav>
+    <a href="green.html">GREEN SCREEN</a>
+    <a href="sound.html">SOUND EFFECT</a>
+    <a href="transmission.html">TRANSMISSION</a>
+    <a href="application.html">APPLICATION</a>
+    <a href="vip.html">VIP</a>
+  </nav>
+
+  <section>
+    <div class="category">
       <h2>GREEN SCREEN</h2>
       <p>در این بخش ابزارهای پرده سبز قرار می‌گیرند.</p>
-      <a href="green.html" class="btn">مشاهده</a>
-    </section><section id="sound" class="category">
-  <h2>SOUND EFFECT</h2>
-  <p>صداهای افکت برای تدوین ویدیو</p>
-  <a href="sound.html" class="btn">مشاهده</a>
-</section>
-
-<section id="transmission" class="category">
-  <h2>TRANSMISSION</h2>
-  <p>ترنزیشن‌های کاربردی</p>
-  <a href="transmission.html" class="btn">مشاهده</a>
-</section>
-
-<section id="app" class="category">
-  <h2>APPLICATION</h2>
-  <p>نرم‌افزارهای ضروری برای ادیت</p>
-  <a href="app.html" class="btn">مشاهده</a>
-</section>
-
-<section id="vip" class="category">
-  <h2>VIP</h2>
-  <p>فایل‌های ویژه فقط برای خریداران قابل دانلود است.</p>
-  <a href="vip.html" class="btn vip">ورود به بخش VIP</a>
-</section>
-
-  </main>  <footer>
-    <div class="container">
-      <p>ارتباط با ما:</p>
-      <div class="social-links">
-        <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
-        <a href="#"><img src="icons/telegram.svg" alt="Telegram"></a>
-        <a href="#"><img src="icons/youtube.svg" alt="YouTube"></a>
-      </div>
-      <p>&copy; 2025 EDIT_IRON</p>
+      <a href="green.html" class="button">مشاهده</a>
     </div>
+    <div class="category">
+      <h2>SOUND EFFECT</h2>
+      <p>صداهای افکت برای تدوین ویدیو</p>
+      <a href="sound.html" class="button">مشاهده</a>
+    </div>
+    <div class="category">
+      <h2>TRANSMISSION</h2>
+      <p>ترنزیشن‌های کاربردی</p>
+      <a href="transmission.html" class="button">مشاهده</a>
+    </div>
+    <div class="category">
+      <h2>APPLICATION</h2>
+      <p>برنامه‌ها و ابزارهای کاربردی تدوین</p>
+      <a href="application.html" class="button">مشاهده</a>
+    </div>
+    <div class="category">
+      <h2>VIP</h2>
+      <p>فایل‌هایی که باید خریداری شوند</p>
+      <a href="vip.html" class="button">مشاهده</a>
+    </div>
+  </section>
+
+  <footer>
+    <a href="https://instagram.com/username" target="_blank">اینستاگرام</a> | 
+    <a href="https://t.me/username" target="_blank">تلگرام</a> | 
+    <a href="https://youtube.com/username" target="_blank">یوتیوب</a>
   </footer>
 </body>
 </html>
